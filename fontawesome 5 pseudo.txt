@@ -1,0 +1,22 @@
+For fontawesome 5 to work on psudo elements 
+use 
+
+content: "\f10c";
+font-family: 'Font Awesome 5 Free';
+font-weight: 900;
+
+This method
+---------------
+
+content: "\f10c";
+font-family: 'FontAwesome';
+
+Won't work
+
+Mentioning font weight 900 is also mandatory
+If there is cross browser issue
+Use
+font-family: 'Font Awesome\ 5 Free';
+instead of 
+font-family: 'Font Awesome 5 Free';
+
